@@ -18,6 +18,7 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
+    padding: 20px;
 }
 .drawer-img {
     width: 100%;
@@ -28,11 +29,13 @@ body {
     height: 100%;
     text-align: center;
     object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 .text-items {
     width: 350px;
     height: 85%;
     background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
 }
 .text-items-content {
     padding: 20px;
@@ -126,11 +129,13 @@ body {
     }
     .drawer-img img {
         width: 450px;
+        border-radius: 10px 0px 0px 10px;
     }
     .text-items {
         width: 450px;
         padding: 30px;
         height: 100%;
+        border-radius: 0px 10px 10px 0px;
     }
     .avatar-items {
         grid-template-columns: 65px 225px 100px;
