@@ -27,6 +27,7 @@ body {
     width: 350px;
     height: 100%;
     text-align: center;
+    object-fit: cover;
 }
 .text-items {
     width: 350px;
@@ -117,7 +118,7 @@ body {
 
 @media (min-width: 900px) {
     .container {
-        grid-template-columns: repeat(2, 450px);
+        grid-template-columns: 365px auto;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -129,7 +130,6 @@ body {
     .text-items {
         width: 450px;
         padding: 30px;
-        margin-left: -100px;
         height: 100%;
     }
     .avatar-items {
